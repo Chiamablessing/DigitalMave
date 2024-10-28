@@ -1,5 +1,6 @@
-# DigitalMave# 
-DigitalMave - Creative freelancing platform
+# DigitalMave
+
+## DigitalMave - Creative freelancing platform
 
 DigitalMave  is a full-stack MERN (MongoDB, Express.js, React, Node.js) application designed to connect freelancers especially creatives and developers with clients in a seamless and efficient platform. Inspired by popular platforms like Dribble,and Behance, DigitalMaven offers a modern, minimalistic interface that makes freelancing more accessible.
 
