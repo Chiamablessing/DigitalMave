@@ -1,0 +1,18 @@
+/* Cusom Scrollbar for scroll-signup class */
+.scroll-signup::-webkit-scrollbar {
+	width: 9px;
+}
+
+.scroll-signup::-webkit-scrollbar-thumb {
+	background-color: #CACACA;
+	border-radius: 10px;
+}
+
+.scroll-signup::-webkit-scrollbar-track {
+	background-color: #F8F9FA;
+}
+
+/* on hover */
+.scroll-signup::-webkit-scrollbar-thumb:hover {
+	background-color: #7C7C7D;
+}

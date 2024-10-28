@@ -1,0 +1,321 @@
+.Navigation{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90px;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 15px;
+   position: relative;
+  }
+
+  .leftNav{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+  }
+
+  .menuBarNavAlign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .Leading{
+    font-size: 25px;
+    display: none;
+   
+  }
+
+  .logoPic{
+    width: 110px;
+    padding-bottom: 13px;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  nav ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    align-items: center;
+    gap: 15px;
+    font-weight: 200;
+  }
+
+  nav a{
+  text-decoration: none;
+  color: black;
+  }
+
+  .hoveredLink{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .LoginLink{
+    display: none;
+  }
+
+  .angleDown{
+    transform: rotate(180deg);
+  }
+
+  .hoveredLink:hover .angleDown{
+    animation:  rotateDown .4s ease-in-out forwards;
+  }
+
+  /*dropdown*/
+.dropDown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    width: 200px;
+    display: none;
+    padding: 20px 0;
+    height: 150px;
+    border: 1px solid silver;
+  
+}
+
+.hoveredLink:hover .dropDown{
+    display: block;
+    transition: 2s ease-in-out ;
+  
+}
+
+@keyframes rotateDown{
+  from{transform: rotate(180deg);}
+  to{transform: rotate(0);}
+}
+
+.drops{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topDrops{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.bottomDrops{
+    font-size: .8rem;
+    color: rgb(110, 109, 109);
+}
+
+  /*dropdown*/
+
+  .rightNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .inputfield{
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    width: 220px;
+    height: 45px;
+    position: relative;
+   
+  }
+
+  .inputfield input:hover{
+    background: white;
+    outline: 3px solid rgb(238, 197, 210);
+  }
+  .inputfield input:focus{
+    outline: 3px solid rgb(238, 197, 210);
+    background: white;
+  }
+
+  .inputfield input{
+    width: inherit;
+    height: inherit;
+    border-radius: 25px;
+    padding: 0 30px;
+    border: none;
+    background: rgba(136, 178, 185, 0.2);
+    outline: none;
+    transition: .200ms  ease-in-out ;
+  }
+
+  .inputIcon{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    color: rgb(146, 145, 145);
+   left: 10px;
+  }
+
+  .search{
+    display: none;
+  }
+  
+  .Login a{
+ color: black;
+ text-decoration: none;
+ font-size: 1rem;
+ font-weight: 500;
+  }
+
+  .signUpBtn{
+    width: 100px ;
+    height: 45px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .signUpBtn button{
+    width: 100px ;
+    height: inherit;
+    border-radius: inherit;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: black;
+    color: white;
+    cursor: pointer;
+  }
+
+  /*media Query*/
+
+  @media (max-width:874px) {
+    .Leading{
+        display: block;
+        cursor: pointer;
+    }
+
+    
+    .search{
+        display: block;
+        font-size: 1.3rem;
+    }
+
+    .inputfield {
+        display: none;
+    }
+
+    .Login{
+        display: none;
+    }
+
+
+    nav{
+    
+        position: absolute;
+        top: 90px;
+        display: inline-block;
+        left: 0;
+        height: 340px;
+        background: white;
+        width: 100%;
+        padding: 60px 10px;
+        border-top: 1px solid rgb(148, 147, 147);
+        display: none;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+       
+    }
+     .open{
+        display: block;
+        animation:  toLeft .3s ease-in-out forwards ;
+    }
+
+@keyframes toLeft {
+  from{transform: translateX(-400px);}
+  to{transform: translateX(0);}
+}
+    nav ul{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+      
+    }
+
+    .angleDown{
+        display: none;
+    }
+
+    .hoveredLink{
+        margin:-40px 0  100px 0;
+    }
+
+    .dropDown{
+        display: block;
+        top: -30px;
+        position: absolute;
+        border: none;
+      
+     
+    }
+
+
+
+.drops::before{
+    position: absolute;
+   content: "";
+   height: 90px;
+   width: 1px;
+   left: 0;
+   background: rgb(175, 174, 174);
+}
+
+
+.LoginLink{
+    border-top: 1px solid rgb(182, 179, 179);
+    display: block;
+    margin: 10px 0;
+    padding-top: 10px;
+}
+    
+  
+  }
+
+
+
+  @media (max-width:300px) {
+
+    .Leading{
+      font-size: 1.1rem;
+    }
+
+
+    .logoPic{
+      width: 90px;
+      margin-left: 10px;
+    }
+
+    .search{
+      font-size: 1rem;
+    }
+
+
+    .signUpBtn button{
+      width: 90px;
+      height: 35px;
+    }
+
+    .rightNav{
+      margin-left: 40px;
+    }
+
+  }
