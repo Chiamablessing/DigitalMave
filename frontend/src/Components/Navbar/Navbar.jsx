@@ -1,10 +1,10 @@
 import React from 'react';
 import { FaBars, FaTimes,FaAngleDown, FaSearch } from 'react-icons/fa';
-import {useState} from 'react'
-import './Navbar.css'
+import {useState} from 'react';
+import "./Navbar.css";
 // import Logo from '../Image/dribbleLogo.png'
-import dmLogo from '../images/Black and White Initial D Creative Studio Logo.png'
-import { Link } from 'react-router-dom';
+import dmLogo from "../Images/dm-logo.png";
+
 const Navbar = (openTheme) => {
 
     const [openNav, setOpenNav] = useState(false);

@@ -1,9 +1,9 @@
 import React from 'react'
-import './Home.css'
+import './Home.css';
 import { Link } from 'react-router-dom'
 // import Inspiration from '../Inspiration/Inspiration'
-import Secondpage from '../Secondpage/Secondpage'
-import Thirdpage from '../Thirdpage/Thirdpage'
+import Secondpage from "../Secondpage/Secondpage";
+import Thirdpage from "../Thirdpage/Thirdpage";
 import footer from '../Footer/footer'
 
 
@@ -44,6 +44,7 @@ const Home = () => {
     <p>Are you a designer? <Link>Join Digital Maven</Link></p>
   </div>
 </div>
+<footer/>
 
 
 
@@ -57,7 +58,8 @@ const Home = () => {
 
     </div>
   )
+
 }
-<footer/>
+
 
 export default Home
