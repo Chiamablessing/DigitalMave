@@ -10,65 +10,6 @@ html,body{
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+  /* background-color: red; */
 }
 
-btn-thm:before,
-.btn-transparent2:before,
-.btn-transparent:before,
-.btn-white:before,
-.ud-btn:before {
-	background-color: #5bbb7b;
-	content: "";
-	height: 100%;
-	left: -100%;
-	position: absolute;
-	top: 0;
-	width: 0;
-	z-index: -1;
-	transform: skew(50deg);
-	transition: width .6s;
-	transform-origin: top left;
-	transition: all .4s ease;
-}
-
-.btn-thm:hover:before {
-	background-color: #1f4b3f;
-}
-
-.btn-thm:hover:before,
-.btn-transparent2:hover:before,
-.btn-transparent:hover:before,
-.btn-white:hover:before,
-.ud-btn:hover:before {
-	height: 100%;
-	width: 200%;
-}
-
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-body {
-	font-family: "DM Sans", sans-serif;
-}
-/* @layer base {
-	section {
-		@apply py-[75px]
-	}
-} */
-
-@layer components {
-
-	.input {
-		@apply py-2 bg-[#fafafa] border border-[#e5e5e5] shadow-input text-[#2e2e2e] w-full text-sm text-left px-3 rounded-md transition-colors duration-100 ease-linear h-9
-	}
-
-	.ud-btn {
-		@apply inline-block font-normal tracking-normal  relative overflow-hidden text-center z-0 transition-all duration-500 ease-in-out
-	}
-
-
-}

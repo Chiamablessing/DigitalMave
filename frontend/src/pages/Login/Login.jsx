@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useContext } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import newRequest from "../../utils/newRequest.js";
+import newRequest from "../../utils/newRequest.jsx";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -11,7 +11,7 @@ import { app } from "../../firebase.js";
 import { AuthContext } from "../../context/AuthContext.jsx";
 
 export const Login = () => {
-  const { updateUser } = useContext(AuthContext);
+  // const { updateUser } = useContext(AuthContext);
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -27,7 +27,7 @@ export const Login = () => {
         password,
       });
       //localStorage.setItem("currentUser", JSON.stringify(res.data));
-      updateUser(res.data);
+      // updateUser(res.data);
       // Show success notification
       toast.success("Logged in successfully", { position: "top-right" });
       setTimeout(() => {
@@ -55,7 +55,7 @@ export const Login = () => {
         isOnline: true,
       });
       //localStorage.setItem("currentUser", JSON.stringify(res1.data));
-      updateUser(res1.data);
+      // updateUser(res1.data);
 
       // to show success notification
       toast.success("Logged in successfully", { position: "top-right" });
@@ -128,7 +128,7 @@ export const Login = () => {
             <a href="/home">
               <img
                 src="/src/assets/images/home/Logo.PNG"
-                alt="FreelySlah"
+                alt="Digitalmave"
                 className="max-w-[80px]"
               />
             </a>
@@ -338,7 +338,7 @@ export const Login = () => {
                 Unleash Your Potential
               </h3>
               <p className="text-gray-600 text-sm">
-                FreelySlah is a leading freelancing platform that connects
+                DigitalMave is a leading freelancing platform that connects
                 skilled professionals with clients worldwide, empowering you to
                 unlock your full potential and grow your career.
               </p>
@@ -357,7 +357,7 @@ export const Login = () => {
                 Explore Global Opportunities
               </h3>
               <p className="text-gray-600 text-sm">
-                With FreelySlah, you can access a wide range of freelance
+                With DigitalMave, you can access a wide range of freelance
                 projects from clients around the globe, expanding your horizons
                 and allowing you to showcase your talents on a global stages
               </p>

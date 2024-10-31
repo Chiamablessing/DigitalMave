@@ -1,12 +1,16 @@
 import React from "react";
 import { BsArrowDown } from "react-icons/bs";
-import logo from "../images/logo.png";
+import logo from "../Images/logo.png";
 import "./Inspiration.css";
 import { Link } from "react-router-dom";
 import { BsDashLg } from "react-icons/bs";
 import { CiSearch } from "react-icons/ci";
 import { FaRegCircleXmark } from "react-icons/fa6";
 import { IoIosArrowDown } from "react-icons/io";
+import secondpage from "../secondpage/Secondpage";
+import Thirdpage from "../Thirdpage/Thirdpage";
+import Fourthpage from "../Fourthpage/Fourthpage";
+import Secondpage from "../secondpage/Secondpage";
 
 function Inspiration() {
   return (
@@ -34,7 +38,7 @@ function Inspiration() {
       </div>
       <div className="subparatwo">
       <p className="secondparagraph">
-        Dribbble is the leading destination to find & showcase creative work and
+        DigitalMave is the leading destination to find & showcase creative work and
       </p>
       <p className="thirdparagraph">
         home to the world's best design professionals.
@@ -51,7 +55,7 @@ function Inspiration() {
       />
       <CiSearch className="search" />
 
-      <div className="container">
+      <div className="Tcontainer">
         <p>Trending searches</p>
         <button className="secondbtn">
           <Link className="link">landing page</Link>
@@ -112,7 +116,9 @@ function Inspiration() {
         </button>
       </div>
 
-
+      <Secondpage/>
+      <Thirdpage/>
+      <Fourthpage/>
 
     </div>
   );

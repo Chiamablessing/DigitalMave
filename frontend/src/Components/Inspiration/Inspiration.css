@@ -6,11 +6,17 @@
     padding: 0 40px;
     height: 70px;
     background-color: black;
+    
 }
 
 .main{
     height: 100%;
     width: 100%;
+    /* background: #000; */
+}
+
+.inner{
+    /* border: 2px solid red; */
 }
 
 .icon{
@@ -26,23 +32,23 @@
     height: 23px;
     position: relative;
     left: 155px;
-    top: 20px;
+    top: 10px;
 }
 
 .firstbutton{
     width: 15%;
     height: 42px;
-    align-items: center;
+    align-items: right;
     font-size: 15px;
     font-weight: 600;
     color: white;
     background-color: rgb(116, 116, 252);
     border: none;
-    margin-top: 15px;
+    margin-top: 5px;
     border-radius: 5px;
     position: relative;
     left: 17px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .firsticon{
@@ -56,12 +62,23 @@
     color: white;
     font-size: 22px;
     font-weight: 600;
+    justify-content: center;
+    text-align: center;
     font-family: 'Lucida SansdLucidcode', Geneva, Verdana, sans-serif;
 }
 
 .secondicon{
     position: relative;
     top: 3px;
+}
+
+.subpara{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    /* border: 2px solid green; */
 }
 
 .firstheading{
@@ -81,6 +98,7 @@
 .secondparagraph{
     font-size: 1.1rem;
     text-align: center;
+    margin-top: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -98,7 +116,7 @@
     margin: 0 25%;
     outline: none;
     border-radius: 30px;
-    margin-top: 25px;
+    margin-top: 20px;
     border: 1px solid rgb(172, 142, 142);
 }
 
@@ -110,7 +128,19 @@
     border: 1px solid rgb(243, 228, 200) ;
 }
 
-.container{
+.Tcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1x solid red;
+    gap: 10px;
+    margin-right: 55px;
+    margin-top: 30px;
+    font-size: 0.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* .container{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -119,7 +149,7 @@
     margin-top: 35px;
     font-size: 0.8rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+} */
 
 .secondbtn{
     width: 8%;
@@ -285,6 +315,14 @@
     padding-left: 15px;
 }
 
+/* @media (max-width: 1024px){
+
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+} */
+
 
 
 @media all and (max-width: 768px) {
@@ -316,6 +354,11 @@
     .subpara{
         line-height: 4px;
         padding: 55px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 100px auto;
     }
 
     .line2{
@@ -455,7 +498,7 @@
     align-items: center;
     gap: 20px;
     margin: 0 10px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .subbtn3{
@@ -566,7 +609,7 @@
     
     .container{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: row; */
         justify-content: center;
         gap: 5px;
         margin-right:15px;

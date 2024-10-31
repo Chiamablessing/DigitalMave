@@ -1,20 +1,20 @@
 import React from "react";
-import flame from "../images/flame.png";
-import toy from "../images/toy.png";
-import tyler from "../images/tyler.jpg";
-import slavisa from "../images/slavisa.png";
-import dalius from "../images/dalius.png";
-import man from "../images/man.png";
-import gert from "../images/gert.png";
-import verse from "../images/verse.jpg";
+import flame from "../Images/flame.png";
+import toy from "../Images/toy.png";
+import tyler from "../Images/tyler.jpg";
+import slavisa from "../Images/slavisa.png";
+import dalius from "../Images/dalius.png";
+import man from "../Images/man.png";
+import gert from "../Images/gert.png";
+import verse from "../Images/verse.jpg";
 import { IoMdHeart } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { PiEyeFill } from "react-icons/pi";
 import "./Thirdpage.css";
-import icon1 from "../images/icon1.png";
-import icon2 from "../images/icon2.jpg";
-import icon3 from "../images/icon3.jpg";
-import icon4 from "../images/icon4.png";
+import icon1 from "../Images/icon1.png";
+import icon2 from "../Images/icon2.jpg";
+import icon3 from "../Images/icon3.jpg";
+import icon4 from "../Images/icon4.png";
 
 function Thirdpage() {
   const container = [

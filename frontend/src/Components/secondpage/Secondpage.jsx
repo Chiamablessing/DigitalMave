@@ -1,15 +1,15 @@
 import React from "react";
-import forest from "../images/forest.png";
-import dalius from "../images/dalius.png";
+import forest from "../Images/forest.png";
+import dalius from "../Images/dalius.png";
 import { IoMdHeart } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { PiEyeFill } from "react-icons/pi";
-import heyo from "../images/heyo.jpg";
-import bird from "../images/bird.jpg";
-import forex from "../images/forex.jpg";
-import verse from "../images/verse.jpg";
-import man from "../images/man.png";
-import gert from "../images/gert.png";
+import heyo from "../Images/heyo.jpg";
+import bird from "../Images/bird.jpg";
+import forex from "../Images/forex.jpg";
+import verse from "../Images/verse.jpg";
+import man from "../Images/man.png";
+import gert from "../Images/gert.png";
 import "./Secondpage.css";
 
 // add designs

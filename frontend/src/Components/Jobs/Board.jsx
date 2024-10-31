@@ -5,7 +5,7 @@ import { IoSearch } from "react-icons/io5";
 import { IoFlashOutline } from "react-icons/io5";
 import { CiLocationOn } from "react-icons/ci";
 import first from "../../assets/noori.png";
-
+import { Link } from "react-router-dom";
 const jobPosts = [
   { company: "nooro", role: "Senior UX/UI designer", location: "Remote" },
   { company: "Poxify", role: "Senior Product Designer", location: "Remote" },
@@ -27,14 +27,21 @@ const jobPosts = [
 const Board = () => {
   return (
     <div className="main-container">
-      <div className="container">
+      <div className="boardcontainer">
         <h1>The #1 Job Board for graphic design Jobs</h1>
         <p className="first-banner">
-          DigitalMaven is the heart of the creative community and the best resource to
+          DigitalMave is the heart of the creative community and the best resource to
           discover and connect with designers and jobs worldwide.
         </p>
+
         <button className="first-btn">
-          <LuPlus /> Post a Job
+
+         <Link to='/post'>
+
+          Post a Job
+
+         </Link>
+
         </button>
       </div>
 

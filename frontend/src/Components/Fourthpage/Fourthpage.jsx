@@ -1,16 +1,16 @@
 import React from 'react'
 import './Fourthpage.css'
-import emote from "../images/emote.jpg"
-import yagi from "../images/yagi.png"
-import jay from "../images/jay.png"
-import rumen from "../images/rumen.png"
+import emote from "../Images/emote.jpg"
+import yagi from "../Images/yagi.png"
+import jay from "../Images/jay.png"
+import rumen from "../Images/rumen.png"
 import { IoMdHeart } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { PiEyeFill } from "react-icons/pi";
-import icon5 from "../images/icon5.jpg";
-import icon6 from "../images/icon6.png";
-import icon7 from "../images/icon7.jpg";
-import icon8 from "../images/icon8.jpg";
+import icon5 from "../Images/icon5.jpg";
+import icon6 from "../Images/icon6.png";
+import icon7 from "../Images/icon7.jpg";
+import icon8 from "../Images/icon8.jpg";
 
 function Fourthpage() {
 

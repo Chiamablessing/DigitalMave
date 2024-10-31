@@ -51,7 +51,7 @@ const Signup = () => {
       toast.success("Signup successful!", { position: "top-right" });
     } catch (err) {
       console.log("could not login with google", err);
-      setError(err.response.data);
+      // setError(err.response.data);
       // Show error notification
       toast.error(error || "Signup failed. Please try again.", {
         position: "top-right",
@@ -72,7 +72,9 @@ const Signup = () => {
       // Show success notification
       toast.success("Signup successful!", { position: "top-right" });
     } catch (err) {
-      setError(err.response.data);
+      console.log('Signup Err: ', err);
+      
+      setError(err.message);
       // Show error notification
       toast.error(error || "Signup failed. Please try again.", {
         position: "top-right",

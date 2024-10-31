@@ -1,0 +1,55 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 100%;
+    height: 270px;
+    padding: 0 20px;
+
+}
+
+.footer .topNav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.topNav img{
+    width: 120px;
+    cursor: pointer;
+}
+
+.topNav .NavLnks{
+display: flex;
+gap: 20px;
+font-size: 1.1rem;
+font-weight: 400;
+}
+
+.topNav .topNavIcons{
+    display: flex;
+   gap: 10px;
+   font-size: 1.3rem;
+   cursor: pointer;
+}
+
+.bottomNav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.left{
+    display: flex;
+    gap: 10px;
+    color: rgb(177, 176, 176);
+}
+
+.right{
+    display: flex;
+    gap: 10px;
+    color: rgb(177, 176, 176);
+}

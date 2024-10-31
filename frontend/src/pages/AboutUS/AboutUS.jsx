@@ -1,5 +1,6 @@
 import React from "react";
-
+import Image1 from '../../Components/Images/about2.png'
+import Image2 from '../../Components/Images/rumen.png'
 const AboutUs = () => {
   return (
     <div className="bg-[#FCFCFC] ">
@@ -7,7 +8,7 @@ const AboutUs = () => {
         <div className="container px-4 md:px-0 py-20 flex flex-row">
           <div className="content-section w-full md:w-3/5">
             <div className="title">
-              <h1 className="text-3xl md:text-4xl text-green-700 font-bold uppercase">
+              <h1 className="text-3xl md:text-4xl text-black-700 font-bold uppercase">
                 DigitalMave
               </h1>
             </div>
@@ -37,7 +38,7 @@ const AboutUs = () => {
           </div>
           <div className="image-section w-full md:w-2/5">
             <img
-              src="images/about1.png"
+              src={Image1}
               alt=""
               className="w-full h-auto md:mx-auto md:my-0 max-w-[400px]"
             />
@@ -48,7 +49,7 @@ const AboutUs = () => {
       <div className="section flex flex-row ml-10 gap-20">
         <div className="image-section w-full md:w-2/5">
           <img
-            src="images/about2.png"
+            src={Image2}
             alt=""
             className="w-full h-auto md:mx-auto md:my-0 max-w-[270px]"
           />
@@ -56,22 +57,20 @@ const AboutUs = () => {
         <div className="container px-4 md:px-0 py-10 flex flex-row">
           <div className="content-section w-full md:w-3/5">
             <div className="title">
-              <h1 className="text-3xl md:text-4xl text-green-700 font-bold uppercase">
-                FreelySlah
+              <h1 className="text-3xl md:text-4xl text-black-700 font-bold uppercase">
+              Over 1 trillion pixels shared. What are you working on?
               </h1>
             </div>
             <div className="content mt-6">
               <h2 className="text-xl md:text-2xl text-gray-700 font-bold">
-                The most trusted cryptocurrency
+              Get to know us
               </h2>
               <p className="mt-4 text-base md:text-lg text-gray-600">
-                Our journey began with a simple yet powerful idea: to create a
-                platform that empowers individuals and businesses alike. At
-                FreelySlah, we believe in the potential of technology to bridge
-                gaps and create opportunities. From freelancers looking to offer
-                their services to businesses aiming to reach a broader audience,
-                our platform is designed to meet diverse needs. Join us as we
-                continue to innovate and push the boundaries of what’s possible.
+              DigitalMave is a 100% remote team. We believe that creative collaboration can happen anywhere and want our team to work
+              where they feel most comfortable and inspired
+              <br />Hundreds of millions of people look for design inspiration and feedback on DigitalMav.
+              We help players like you share small screenshots (shots) to show off your current projects, boost your portfolio,
+              and love what you do—no matter what kind of creative professional you are.
               </p>
             </div>
             <div className="social mt-8">

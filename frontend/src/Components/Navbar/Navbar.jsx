@@ -1,9 +1,12 @@
 import React from 'react';
 import { FaBars, FaTimes,FaAngleDown, FaSearch } from 'react-icons/fa';
 import {useState} from 'react';
+import { Link } from 'react-router-dom';
 import "./Navbar.css";
 // import Logo from '../Image/dribbleLogo.png'
-import dmLogo from "../Images/dm-logo.png";
+// import dmLogo from "../Images/dm-logo.png";
+import dmLogo from '../Images/Black and White Initial D Creative Studio Logo.png'
+
 
 const Navbar = (openTheme) => {
 
@@ -80,11 +83,12 @@ const Navbar = (openTheme) => {
     </div>
 
     <div className="Login">
-        <Link to="">Log in</Link>
+        <Link to="/login">Log in</Link>
     </div>
 
     <div className="signUpBtn">
-        <button type='submit'>Sign up</button>
+        <button type='submit'><Link to="signup">Sign up</Link></button>
+        
     </div>
 </div>
 
