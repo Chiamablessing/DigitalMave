@@ -9,6 +9,8 @@ const Post = () => {
        <p className="mt-4 text-base text-gray-600">Work with the most talented and accomplished designers in the world on a freelance, contract, part-time, or full-time basis.</p>
 
     </div>
+
+
   )
 }
 

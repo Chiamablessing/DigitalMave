@@ -51,7 +51,7 @@ export const Login = () => {
         email,
         name: displayName,
         img: photoURL,
-        country: "Algeria",
+        country: "Nigeria",
         isOnline: true,
       });
       //localStorage.setItem("currentUser", JSON.stringify(res1.data));
@@ -60,7 +60,7 @@ export const Login = () => {
       // to show success notification
       toast.success("Logged in successfully", { position: "top-right" });
       setTimeout(() => {
-        navigate("/welcome");
+        navigate("/Welcome");
       }, 2000);
     } catch (err) {
       console.log("could not login with google", err);
@@ -259,7 +259,7 @@ export const Login = () => {
               <div className="max-w-[450px] mx-auto mt-4">
                 <button
                   type="submit"
-                  className="text-white !bg-[#0E9F6E]  hover:!bg-[#046c4e] font-semibold rounded-md py-2 px-4 w-full tracking-[0.05em]"
+                  className="text-white !bg-[#0a0a0a]  hover:!bg-[#046c4e] font-semibold rounded-md py-2 px-4 w-full tracking-[0.05em]"
                 >
                   Login
                 </button>

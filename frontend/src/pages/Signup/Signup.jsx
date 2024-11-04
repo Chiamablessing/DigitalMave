@@ -283,7 +283,7 @@ const Signup = () => {
                 id="country"
                 name="country"
                 onChange={handleChange}
-                className="input focus:outline-none focus:border-[#0e9f6e] focus-within:outline-none focus-within:border-[#0e9f6e] placeholder:text-sm placeholder:text-[#BEB5C3] "
+                className="input focus:outline-none focus:border-[#111111] focus-within:outline-none focus-within:border-[#0e9f6e] placeholder:text-sm placeholder:text-[#BEB5C3] "
               >
                 <option value="">Select Country</option>
                 {countryData.map((country) => (
@@ -302,7 +302,7 @@ const Signup = () => {
                 className="w-3 h-3 text-blue-600"
               />
               <label htmlFor="terms" className="text-gray-600 ml-2 text-xs">
-                Yes, I agree to FreelySlah’s{" "}
+                Yes, I agree to DigitalMave{" "}
                 <a href="" className="text-[#6941c6]">
                   Terms of Service
                 </a>{" "}
@@ -318,7 +318,7 @@ const Signup = () => {
             <div className="max-w-[450px] mx-auto mt-4">
               <button
                 type="submit"
-                className="text-white text-sm w-fit !bg-[#0E9F6E]  hover:!bg-[#046c4e] font-semibold rounded-md py-2 px-4 tracking-[0.05em]"
+                className="text-white text-sm w-fit !bg-[#101010]  hover:!bg-[#046c4e] font-semibold rounded-md py-2 px-4 tracking-[0.05em]"
               >
                 Signup
               </button>
@@ -352,7 +352,7 @@ const Signup = () => {
               .<div className="glass-overlay absolute inset-0 z-0"></div>
             </h4>
             <p className="text-gray-350 text-sm pl-4 max-w-[550px]">
-              Discover the world&apos;s top freelance talents on FreelySlah.
+              Discover the world&apos;s top freelance talents on DigitalMave.
               Join our community and unlock new opportunities.
             </p>
             <div className="w-* h-96 mt-1 mb-8 m-auto">

@@ -12,7 +12,7 @@ const ContactUs = () => {
         </div>
       </div>
 
-      <div className="contact-box ml-5 gap-5 bg-red-700 flex flex-col justify-center items-center p-8 shadow-lg">
+      <div className="contact-box ml-5 gap-5 bg-pink-700 flex flex-col justify-center items-center p-8 shadow-lg">
         <div className="c-heading text-center ">
           <h1 className="text-white mb-2 mt-10 md:text-5xl text-4xl font-bold md:leading-snug leading-snug">
             Get In Touch
