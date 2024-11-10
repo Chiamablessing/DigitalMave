@@ -221,7 +221,7 @@ const FormTwo2 = () => {
                 Previous
               </button>
               <button
-                className="border ud-btn btn-thm btn-white mt-3 w-fit font-semibold px-5 py-[5px] text-lg border-[#1DBF73] !bg-[#0E9F6E] hover:!bg-[#046c4e] text-white rounded-md"
+                className="border ud-btn btn-thm btn-white mt-3 w-fit font-semibold px-5 py-[5px] text-lg border-[#1DBF73] !bg-[#edcb32] hover:!bg-[#046c4e] text-white rounded-md"
                 type="button"
                 onClick={next}
               >

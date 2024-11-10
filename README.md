@@ -69,7 +69,7 @@ cd DigitalMave
 2. Start the backend API:
    ```bash
    cd ../api
-   npm start
+   npm run start
    ```
 
 <!--The application should now be running with the frontend accessible at `http://localhost:5173` and the backend API at `http://localhost:5000`.-->
@@ -100,4 +100,4 @@ DigitalMave/
 - **Deployment**: TBD
 
 ## Contribution
-Chiamaka Emeti[github](github.com/chiamablessing)
+Chiamaka Emeti[github](https://github.com/Chiamablessing/DigitalMave)

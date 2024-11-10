@@ -127,7 +127,7 @@ export const Login = () => {
           <div>
             <a href="/home">
               <img
-                src="/src/assets/images/home/Logo.PNG"
+                src="/src/Components/Images/Black and White Initial D Creative Studio Logo.png"
                 alt="Digitalmave"
                 className="max-w-[80px]"
               />

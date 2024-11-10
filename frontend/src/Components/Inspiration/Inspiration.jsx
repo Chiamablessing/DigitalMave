@@ -50,7 +50,7 @@ function Inspiration() {
 
       <input
         type="text"
-        placeholder="Search 18 million+ shots..."
+        placeholder="What are you looking for?"
         className="firstinput"
       />
       <CiSearch className="search" />

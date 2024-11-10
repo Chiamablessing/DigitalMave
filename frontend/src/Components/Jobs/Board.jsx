@@ -26,7 +26,7 @@ const jobPosts = [
 
 const Board = () => {
   return (
-    <div className="main-container">
+    <div className="main-container" >
       <div className="boardcontainer">
         <h1>The #1 Job Board for graphic design Jobs</h1>
         <p className="first-banner">

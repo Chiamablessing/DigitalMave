@@ -60,7 +60,7 @@ const Navbar = (openTheme) => {
         </Link>
         <Link to="/inspiration">Inspiration</Link>
         <Link to="/jobs">Jobs</Link>
-        <Link to="">Go pro</Link>
+        <Link to="Go pro">Gopro</Link>
     </ul>
     <div className="LoginLink">
         <Link to="">Log In</Link>

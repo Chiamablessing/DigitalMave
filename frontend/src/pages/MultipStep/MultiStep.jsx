@@ -55,7 +55,7 @@ const MultiStep = () => {
             <form className=" max-[699px]:border-none  max-[699px]:p-0  ">
               <div className="!text-center ">
                 <h2 className="pb-2 my-6 text-[32px] tracking-[-1px] leading-[46px] font-bold break-words text-[#333] mb-8 ">
-                  Join as a client or freelancer
+                  Join as a client or skilled freelancer
                 </h2>
                 <div className="flex flex-wrap justify-center lg-b:px-4  xl-b:px-28	mb-16">
                   <div
@@ -96,7 +96,7 @@ const MultiStep = () => {
                   <div
                     className={`custom-control w-full md-b:w-2/5 md-b:mr-5 border-2 border-transparent outline-1 outline hover:outline-[#b7b1b1] outline-[#e9e9e9] rounded-[16px] mb-[20px] pt-[26px] px-[30px] pb-[35px] relative cursor-pointer block transition-all duration-150 ease-in-out  hover:!bg-[#fafafa] hover:!border-1 hover:!border-[#0e9f6e]  focus:outline-none focus:border-[#0e9f6e] focus-within:outline-none focus-within:border-[#0e9f6e] placeholder:text-sm placeholder:text-[#BEB5C3] ${
                       selectedValue === "freelancer"
-                        ? "bg-[#fafafa] border-2 !border-[#0e9f6e] cursor-pointer  "
+                        ? "bg-[#fafafa] border-2 !border-[#ffe944] cursor-pointer  "
                         : ""
                     }`}
                   >
@@ -143,7 +143,7 @@ const MultiStep = () => {
                   <button
                     type="button"
                     onClick={next}
-                    className="w-[200px] h-[50px] rounded-3xl font-extrabold ud-btn btn-thm btn-white relative add-joining text-[15px] py-[13px] px-[25px] xxs-b:py-[5px] xxs-b:px-[30px]  transition-all duration-500 ease-linear cursor-pointer outline-none !bg-[#5BBB7B] border-2 !border-[#5BBB7B] text-white hover:!text-white hover:!border-[#1F4B3F] "
+                    className="w-[200px] h-[50px] rounded-3xl font-extrabold ud-btn btn-thm btn-white relative add-joining text-[15px] py-[13px] px-[25px] xxs-b:py-[5px] xxs-b:px-[30px]  transition-all duration-500 ease-linear cursor-pointer outline-none !bg-[#f3c247] border-2 !border-[#f4b33b] text-white hover:!text-white hover:!border-[#1F4B3F] "
                   >
                     Continue
                   </button>

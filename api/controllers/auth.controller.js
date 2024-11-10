@@ -56,6 +56,7 @@ export const login = async (req, res, next) => {
         secure: process.env.NODE_ENV === "production", // Secure in production
         sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
         maxAge: 86400000, // 24 hours expiration
+        
       })
       .status(200)
       .send(info);

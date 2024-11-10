@@ -1,6 +1,12 @@
-import { createContext, useState, useEffect } from "react";
+import { createContext, useEffect, useState } from "react";
 
-export const AuthContext = createContext();
+// Initialize AuthContext with an object containing currentUser
+export const AuthContext = createContext({
+  currentUser: null, // initial value
+  updateUser: () => {},
+  currentProject: null,
+  updateProject: () => {},
+});
 
 export const AuthContextProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState(
@@ -20,13 +26,12 @@ export const AuthContextProvider = ({ children }) => {
     scopeLevel: "",
     scopeHiring: "",
     attachments: [],
-    tierPrice: null, // Add tierPrice property
+    tierPrice: null,
   });
 
-  const updateUser = (data="currentUser") => {
+  const updateUser = (data) => {
     setCurrentUser(data);
     localStorage.setItem("currentUser", JSON.stringify(data));
-    
   };
 
   const updateProject = (data) => {

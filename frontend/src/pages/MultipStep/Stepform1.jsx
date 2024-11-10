@@ -5,10 +5,10 @@ import FormOne1 from "./FormOne1";
 import FormTwo2 from "./FormTwo2";
 import FormThree3 from "./FormThree3.jsx";
 import FormFinish4 from "./FormFinish4";
-import Navbar from "../../components/NavbarF/NavbarF";
-import MultiStep from "../MultipStep";
+// import Navbar from "../../Components/NavbarF/NavbarF.jsx";
+import MultiStep from "../MultipStep/MultiStep.jsx";
 import FormFreelancer from "./FormFreelancer.jsx";
-import { useNavigate } from "react-router-dom";
+import { Link,useNavigate} from "react-router-dom";
 import FormFive5 from "./FormFive5.jsx";
 import FormSix6 from "./FormSix6.jsx";
 import { AuthContext } from "../../context/AuthContext.jsx";
@@ -19,9 +19,9 @@ const StepForm1 = () => {
 
   // if currentUser has no description then navigate to login page
   useEffect(() => {
-    if (currentUser.desc !== null && currentUser.isSeller === true) {
+    if (currentUser?.desc !== null && currentUser?.isSeller === true) {
       navigate("/");
-    } else if (currentUser.desc === null && currentUser.isSeller === false) {
+    } else if (currentUser?.desc === null && currentUser?.isSeller === false) {
       navigate("/");
     }
   }, [currentUser, navigate]);
@@ -115,7 +115,7 @@ const StepForm1 = () => {
   return (
     <AppContext.Provider value={{ userDetails }}>
       <div className="main">
-        <Navbar />
+        {/* <Navbar /> */}
 
         {/* <ProgressBar /> */}
         {step === 0 && <MultiStep />}

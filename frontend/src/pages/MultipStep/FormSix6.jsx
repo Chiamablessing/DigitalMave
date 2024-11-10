@@ -159,7 +159,7 @@ const FormSix6 = () => {
             </button>
             <button
               onClick={next}
-              className="px-5 py-2 bg-[#0E9F6E] text-white rounded-3xl hover:bg-[#046c4e]"
+              className="px-5 py-2 bg-[#f3bd3e] text-white rounded-3xl hover:bg-[#046c4e]"
             >
               Next
             </button>

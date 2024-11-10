@@ -161,7 +161,7 @@ const FormOne = () => {
             </div>
             <div className="w-full flex flex-wrap justify-between">
               <button
-                className="text-white !bg-[#0E9F6E] hover:!bg-[#046c4e] font-semibold rounded-md py-2 px-4 w-full tracking-[0.05em]"
+                className="text-white !bg-[#fce63e] hover:!bg-[#046c4e] font-semibold rounded-md py-2 px-4 w-full tracking-[0.05em]"
                 type="button"
                 onClick={next}
               >

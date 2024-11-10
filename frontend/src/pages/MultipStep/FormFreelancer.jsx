@@ -148,7 +148,7 @@ return (
                 <button
                     type="button"
                     onClick={next}
-                    className="w-[200px] h-[50px] rounded-3xl font-extrabold ud-btn btn-thm btn-white relative add-joining text-[15px] py-[13px] px-[25px] xxs-b:py-[5px] xxs-b:px-[30px]  transition-all duration-500 ease-linear cursor-pointer outline-none !bg-[#5BBB7B] border-2 !border-[#5BBB7B] text-white hover:!text-white hover:!border-[#1F4B3F] "
+                    className="w-[200px] h-[50px] rounded-3xl font-extrabold ud-btn btn-thm btn-white relative add-joining text-[15px] py-[13px] px-[25px] xxs-b:py-[5px] xxs-b:px-[30px]  transition-all duration-500 ease-linear cursor-pointer outline-none !bg-[#ecbd57] border-2 !border-[#f6fc8e] text-white hover:!text-white hover:!border-[#1F4B3F] "
                 >
                     Continue
                 </button>

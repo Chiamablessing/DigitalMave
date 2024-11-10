@@ -122,10 +122,10 @@ const FormFinish = () => {
           </h2>
           <h4 className="text-xs text-[#00000099]">
             You have completed your profile set up successfully, you can now
-            start using the FreelySlah ✨
+            start using the DigitalMave✨
           </h4>
 
-          <button className="border mt-8 w-fit font-bold px-7 py-[5px] text-lg   border-[#1DBF73] !bg-[#0E9F6E]  hover:!bg-[#046c4e] text-white rounded-md   ">
+          <button className="border mt-8 w-fit font-bold px-7 py-[5px] text-lg   border-[#46514c] !bg-[#f0c95b]  hover:!bg-[#046c4e] text-white rounded-md   ">
             Finish
           </button>
           {/* Handle notifications */}

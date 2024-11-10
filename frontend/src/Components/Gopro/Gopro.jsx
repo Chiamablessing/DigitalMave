@@ -1,32 +1,33 @@
 import React from 'react'
 import { IoMdCheckmark } from "react-icons/io";
 import { FiAlertCircle } from "react-icons/fi";
-import img1 from '../images/React1.png';
-import img2 from '../images/React2.png';
-import img3 from '../images/React3.png';
-import img4 from '../images/React4.png';
-import img6 from '../images/React6.png';
-import img11 from '../images/React11.png';
-import img7 from '../images/React7.png';
-import img9 from '../images/React9.png';
-import img5 from '../images/React5.png';
-import img8 from '../images/React8.png';
-import img10 from '../images/React10.png';
-import img12 from '../images/React12.png';
+import img1 from '../Images/React1.png';
+import img2 from '../Images/React2.png';
+import img3 from '../Images/React3.png';
+import img4 from '../Images/React4.png';
+import img6 from '../Images/React6.png';
+import img11 from '../Images/React11.png';
+import img7 from '../Images/React7.png';
+import img9 from '../Images/React9.png';
+import img5 from '../Images/React5.png';
+import img8 from '../Images/React8.png';
+import img10 from '../Images/React10.png';
+import img12 from '../Images/React12.png';
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
-import img13 from '../images/React13.png';
-import img14 from '../images/React14.png';
-import img15 from '../images/React15.png';
-import img16 from '../images/React16.png';
+import img13 from '../Images/React13.png';
+import img14 from '../Images/React14.png';
+import img15 from '../Images/React15.png';
+import img16 from '../Images/React16.png';
 import { PiFramerLogoFill } from "react-icons/pi";
 import { FaMeta } from "react-icons/fa6";
 import { SiAdobe } from "react-icons/si";
-import img17 from '../images/amazon.webp';
+import img17 from '../Images/amazon.webp';
 import { FaSquarespace } from "react-icons/fa6";
 import { FaApple, FaTimes } from "react-icons/fa";
 import { BiLogoFigma } from "react-icons/bi";
-import img18 from '../images/google.png';
+import img18 from '../Images/google.png';
 import { FaMicrosoft } from "react-icons/fa";
+import "./Gopro.css";
 import { useState } from 'react';
 
 
@@ -46,7 +47,7 @@ function Gopro() {
 
 
     <div className='con1'>
-    <button className='drib'>DRIBBBLE PRO</button>
+    <button className='drib'>DigitalMave PRO</button>
         <p className='lead'>Get more leads,
         pay no fees.</p>
         <p className='beat'>Unbeatable ROI for professional designers growing their business.</p>
@@ -108,7 +109,7 @@ function Gopro() {
 <img src={img3} alt="" />
 <div className='text'>
 <p className='stand'>Transact for free</p>
-<p className='rank'>Pay no fees on transactions completed through Dribbble.</p>
+<p className='rank'>Pay no fees on transactions completed through DigitalMave.</p>
 </div>
 </div>
 
@@ -123,7 +124,7 @@ function Gopro() {
 <div className='fourthsection'>
         <div className="Texts">
         <p className='fourthsectionText'>Showcase your portfolio with a custom domain.</p>
-        <p className='fourthsectionTextonly'>Showcase your work on a portfolio website powered by Dribbble.</p>
+        <p className='fourthsectionTextonly'>Showcase your work on a portfolio website powered by DigitalMave.</p>
         </div>
 
         <div className="imageCon">
@@ -145,17 +146,20 @@ function Gopro() {
 <div className='fifthsection'>
         <img className='imag10' src={img10} alt="" />
         <div className='convert'>
-        <p className='deliver'>Convert leads, deliver work, and get paid through Dribbble
+        <p className='deliver'>Convert leads, deliver work, and get paid through DigitalMave
         (for free).</p>
-        <p className='plat'>Platform fees are waived for Pros who transact through Dribbble.</p>
+        <p className='plat'>Platform fees are waived for Pros who transact through DigitalMave</p>
         </div>
 </div>
 <div className='sixthsection'>
         <div className='webflow'>
         <p className='twelve'>12 Months of Webflow Included</p>
-        <p className='web'>Sign up for Dribbble Pro and get your first 12 months of Webflow's Agency or Freelancer workspace plans - for free!</p>
+        <p className='web'>Sign up for DigitalMave Pro and get your first 12 months of Webflow's Agency or Freelancer workspace plans - for free!</p>
 
-        <button className='up'>sign-up now</button>
+        <button className='up'>
+
+                sign-up now
+        </button>
         </div>
         <img src={img12} alt="" />
 </div>
@@ -168,7 +172,7 @@ function Gopro() {
 
         <div className='image7'>
         <p className='solid'><BiSolidQuoteAltLeft /></p>
-<p className='manage'>Because of Dribbble I managed to increase my profit more then 10 times in just a year. It was the most amazing experience of my life and I am still living it!</p>
+<p className='manage'>Because of DigitalMave I managed to increase my profit more then 10 times in just a year. It was the most amazing experience of my life and I am still living it!</p>
 <div className='cioba'>
 <img className='img13' src={img13} alt="" />
 <div className='visual'>
@@ -181,7 +185,7 @@ function Gopro() {
 
         <div className='image8'>
         <p className='quote'><BiSolidQuoteAltLeft /></p>
-<p className='florida'>I recently moved to LA from Florida and I’ve had steady freelance work all thanks to Dribbble. Best investment I’ve made was becoming Pro.</p>
+<p className='florida'>I recently moved to LA from Florida and I’ve had steady freelance work all thanks to DigitalMave. Best investment I’ve made was becoming Pro.</p>
 <div className='waite'>
 <img src={img14} alt="" />
 <div className='brown'>
@@ -194,7 +198,7 @@ function Gopro() {
 
         <div className='image9'>
         <p className='alt'><BiSolidQuoteAltLeft /></p>
-<p className='days'>12 work enquiries in 2 days. The money spent for Dribbble Pro is the best money you can spend if you are a designer.</p>
+<p className='days'>12 work enquiries in 2 days. The money spent for DigitalMave Pro is the best money you can spend if you are a designer.</p>
 <div className='design'>
 <img src={img15} alt="" />
 <div className='kyee'>
@@ -210,7 +214,7 @@ function Gopro() {
 <div className='eightsection'>
         <div className='computer'>
         <p className='comp'>The most design-forward companies on the planet</p>
-                <p className='comp'> hire designers from Dribbble.</p>
+                <p className='comp'> hire designers from DigitalMave.</p>
         <p className='commune'>Our community partners with some of the most valuable companies on the planet.</p>
         </div>
         <div className='deu'>

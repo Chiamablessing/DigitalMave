@@ -99,13 +99,13 @@ const Signup = () => {
         <div className="flex items-center flex-row justify-between p-6 bg-[#fcfcfc]   w-full ">
           {/* Login Header */}
           <div>
-            <a href="/home">
+            {/* <a href="/home">
               <img
                 src="/src/assets/images/home/Logo.PNG"
-                alt="FreelySlah"
+                alt="DigitalMave"
                 className="max-w-[80px]"
               />
-            </a>
+            </a> */}
           </div>
           <div>
             <span className="text-[#8a8a8a] font-normal mr-2 text-sm hidden sm:inline">
