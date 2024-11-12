@@ -19,7 +19,7 @@ DigitalMave  is a full-stack MERN (MongoDB, Express.js, React, Node.js) applicat
 
 ### Prerequisites
 - Node.js (v14.x or higher)
-- MongoDB (local or cloud instance)
+- MongoDB Database (local or cloud instance)
 - npm
 
 ### Clone the Repository
