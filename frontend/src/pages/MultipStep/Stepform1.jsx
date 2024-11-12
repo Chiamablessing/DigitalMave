@@ -54,6 +54,8 @@ const StepForm1 = () => {
   const [userStoreLocation, setStoreLocation] = useState(null);
   const [storeImg, setStoreImg] = useState(null);
 
+  // set userDetails
+
   const userDetails = {
     currentPage: step,
     userName: username,
